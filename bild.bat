@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 
 echo Starting build process for Timur Steam...
 
@@ -28,10 +28,58 @@ if %errorlevel% neq 0 (
     )
 )
 
-:: Note about Qt
+:: --- COMPILER CHECK ---
+echo Checking for C++ compiler...
+
+:: 1. Check if we are already in a VS Command Prompt (cl.exe exists)
+where cl >nul 2>nul
+if %errorlevel% equ 0 (
+    echo MSVC compiler (cl.exe) found.
+    goto :build_process
+)
+
+:: 2. Check for MinGW (g++)
+where g++ >nul 2>nul
+if %errorlevel% equ 0 (
+    echo MinGW compiler (g++) found.
+    goto :build_process
+)
+
+:: 3. Try to find Visual Studio and set up environment
+echo Compiler not active. Looking for Visual Studio...
+set "vswhere=%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe"
+if exist "%vswhere%" (
+    for /f "usebackq tokens=*" %%i in (`"%vswhere%" -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath`) do (
+        set "vs_path=%%i"
+    )
+    if defined vs_path (
+        echo Found Visual Studio at "!vs_path!"
+        echo Setting up build environment...
+        call "!vs_path!\VC\Auxiliary\Build\vcvars64.bat" >nul
+        if !errorlevel! equ 0 (
+            echo Environment initialized successfully.
+            goto :build_process
+        )
+    )
+)
+
+:: 4. If nothing works
 echo.
-echo NOTE: This script assumes Qt 6 is installed and configured in your environment.
-echo If the build fails, verify that you have Qt 6 installed (including WebEngine) and CMAKE_PREFIX_PATH is set correctly.
+echo [ERROR] No C++ compiler found!
+echo CMake requires a compiler to build the project.
+echo.
+echo SOLUTIONS:
+echo 1. Install "Visual Studio Build Tools" (C++ Desktop Development workload).
+echo 2. OR Install MinGW (e.g. via Qt installer) and add it to PATH.
+echo 3. OR Run this script from a "Developer Command Prompt for VS".
+echo.
+pause
+exit /b 1
+
+:build_process
+echo.
+echo NOTE: Ensure Qt 6 (WebEngine) is installed.
+echo If CMake cannot find Qt, set CMAKE_PREFIX_PATH to your Qt lib folder.
 echo.
 
 :: Clean previous build
@@ -44,13 +92,10 @@ mkdir build
 cd build
 
 echo Configuring CMake...
-:: Attempt basic configuration. 
-:: If Qt is not in PATH, this might fail unless CMAKE_PREFIX_PATH is set.
 cmake ..
 if %errorlevel% neq 0 (
     echo CMake configuration failed. 
-    echo Please make sure you are running this from a suitable environment (e.g., Qt environment shell) 
-    echo or have CMAKE_PREFIX_PATH pointing to your Qt lib directory.
+    echo Please check the error messages above.
     cd ..
     pause
     exit /b 1
