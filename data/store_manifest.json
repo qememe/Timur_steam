@@ -1,0 +1,26 @@
+[
+    {
+        "author": "qememe",
+        "description": "Простая игра кликер.",
+        "id": "clicker",
+        "repoUrl": "https://github.com/qememe/TimurSteam-Clicker.git",
+        "title": "Кликер",
+        "version": "1.0"
+    },
+    {
+        "author": "qememe",
+        "description": "Проверь свою реакцию!",
+        "id": "reaction",
+        "repoUrl": "https://github.com/qememe/TimurSteam-Reaction.git",
+        "title": "Тест Реакции",
+        "version": "1.0"
+    },
+    {
+        "author": "4",
+        "description": "3",
+        "id": "3",
+        "repoUrl": "https://github.com/qememe/-.git",
+        "title": "3",
+        "version": "1.0"
+    }
+]

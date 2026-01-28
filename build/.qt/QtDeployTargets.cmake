@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Timur_steam_FILE /home/qememe/проекты/Timur_steam/build/Timur_steam)
+set(__QT_DEPLOY_TARGET_Timur_steam_TYPE EXECUTABLE)

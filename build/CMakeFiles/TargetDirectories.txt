@@ -1,0 +1,5 @@
+/home/qememe/проекты/Timur_steam/build/CMakeFiles/Timur_steam.dir
+/home/qememe/проекты/Timur_steam/build/CMakeFiles/edit_cache.dir
+/home/qememe/проекты/Timur_steam/build/CMakeFiles/rebuild_cache.dir
+/home/qememe/проекты/Timur_steam/build/CMakeFiles/Timur_steam_autogen_timestamp_deps.dir
+/home/qememe/проекты/Timur_steam/build/CMakeFiles/Timur_steam_autogen.dir
