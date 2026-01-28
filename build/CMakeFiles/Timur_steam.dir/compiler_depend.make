@@ -1312,6 +1312,9 @@ Timur_steam_autogen/timestamp: /home/qememe/проекты/Timur_steam/CMakeList
   /usr/share/cmake/Modules/Platform/Linux.cmake \
   /usr/share/cmake/Modules/Platform/UnixPaths.cmake
 
+CMakeFiles/Timur_steam.dir/Timur_steam_autogen/EWIEGA46WW/qrc_resources.cpp.o: Timur_steam_autogen/EWIEGA46WW/qrc_resources.cpp \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/Timur_steam.dir/Timur_steam_autogen/mocs_compilation.cpp.o: Timur_steam_autogen/mocs_compilation.cpp \
   /home/qememe/проекты/Timur_steam/src/AuthManager.h \
   /home/qememe/проекты/Timur_steam/src/GameManager.h \
@@ -4136,6 +4139,7 @@ Timur_steam: /opt/cuda/lib64/libOpenCL.so.1 \
   /usr/lib32/libvorbisfile.so.3 \
   /usr/lib32/libxcb-render.so.0 \
   /usr/lib32/libxcb-shm.so.0 \
+  CMakeFiles/Timur_steam.dir/Timur_steam_autogen/EWIEGA46WW/qrc_resources.cpp.o \
   CMakeFiles/Timur_steam.dir/Timur_steam_autogen/mocs_compilation.cpp.o \
   CMakeFiles/Timur_steam.dir/src/AuthManager.cpp.o \
   CMakeFiles/Timur_steam.dir/src/GameManager.cpp.o \
@@ -4636,6 +4640,8 @@ CMakeFiles/Timur_steam.dir/src/GameManager.cpp.o:
 /usr/include/bits/fp-logb.h:
 
 /usr/include/bits/fp-fast.h:
+
+Timur_steam_autogen/EWIEGA46WW/qrc_resources.cpp:
 
 /usr/share/cmake/Modules/Platform/UnixPaths.cmake:
 
@@ -7018,6 +7024,8 @@ CMakeFiles/Timur_steam.dir/src/AuthManager.cpp.o:
 /usr/lib/libsrt.so.1.5:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake:
+
+CMakeFiles/Timur_steam.dir/Timur_steam_autogen/EWIEGA46WW/qrc_resources.cpp.o:
 
 /usr/include/c++/15.2.1/bits/basic_ios.h:
 

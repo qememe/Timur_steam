@@ -12,7 +12,22 @@
 
 ## Требования для сборки
 
-### Linux (Arch Linux)
+### Автоматическая сборка (Рекомендуется)
+
+#### Linux
+Запустите скрипт сборки (автоматически установит зависимости и соберет проект):
+```bash
+./bild.sh
+```
+
+#### Windows
+Запустите файл `bild.bat`.
+
+---
+
+### Ручная сборка
+
+#### Linux (Arch Linux)
 1. Установите зависимости:
    ```bash
    sudo pacman -S base-devel cmake git qt6-base qt6-webengine
@@ -28,7 +43,7 @@
    ./Timur_steam
    ```
 
-### Windows
+#### Windows
 1. Установите [Qt 6](https://www.qt.io/download) (включая WebEngine).
 2. Установите [CMake](https://cmake.org/download/).
 3. Установите [Git](https://git-scm.com/download/win).

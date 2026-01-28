@@ -371,4 +371,5 @@ CMakeFiles/Timur_steam.dir/src/GameManager.cpp.o: \
  /usr/include/qt6/QtCore/QJsonObject \
  /usr/include/qt6/QtCore/qjsonobject.h \
  /usr/include/qt6/QtCore/QStandardPaths \
- /usr/include/qt6/QtCore/qstandardpaths.h
+ /usr/include/qt6/QtCore/qstandardpaths.h /usr/include/qt6/QtCore/QUrl \
+ /usr/include/qt6/QtCore/qurl.h

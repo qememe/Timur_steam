@@ -5,6 +5,7 @@ Timur_steam_autogen/timestamp: /home/qememe/проекты/Timur_steam/CMakeList
   CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
   CMakeFiles/4.2.2/CMakeSystem.cmake \
   Timur_steam_autogen/moc_predefs.h \
+  /home/qememe/проекты/Timur_steam/resources.qrc \
   /home/qememe/проекты/Timur_steam/src/AuthManager.cpp \
   /home/qememe/проекты/Timur_steam/src/AuthManager.h \
   /home/qememe/проекты/Timur_steam/src/GameManager.cpp \
@@ -1566,7 +1567,7 @@ Timur_steam_autogen/timestamp: /home/qememe/проекты/Timur_steam/CMakeList
 
 /usr/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets.cmake:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebenginequickdelegatespluginTargets-relwithdebinfo.cmake:
+/usr/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
@@ -2072,6 +2073,10 @@ CMakeFiles/4.2.2/CMakeSystem.cmake:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
+/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
 /usr/include/c++/15.2.1/bits/invoke.h:
 
 /usr/include/qt6/QtCore/qanystringview.h:
@@ -2212,12 +2217,6 @@ CMakeFiles/4.2.2/CMakeSystem.cmake:
 
 /usr/include/qt6/QtCore/qshareddata_impl.h:
 
-/usr/include/qt6/QtGui/qpixmap.h:
-
-/usr/include/qt6/QtCore/qstringconverter_base.h:
-
-/home/qememe/проекты/Timur_steam/src/MainWindow.h:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginConfig.cmake:
@@ -2236,24 +2235,6 @@ CMakeFiles/4.2.2/CMakeSystem.cmake:
 
 /usr/include/bits/types/__locale_t.h:
 
-/usr/include/c++/15.2.1/bits/hashtable_policy.h:
-
-/usr/include/qt6/QtCore/qlist.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/15.2.1/bit:
-
-/usr/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake:
-
-/usr/include/qt6/QtCore/qbytearray.h:
-
-/usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
-/usr/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateVersionlessAliasTargets.cmake:
-
 /usr/include/asm/posix_types.h:
 
 /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
@@ -2269,6 +2250,22 @@ CMakeFiles/4.2.2/CMakeSystem.cmake:
 /usr/include/c++/15.2.1/bits/stl_set.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake:
+
+/usr/include/qt6/QtCore/qbytearray.h:
+
+/usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
+/usr/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateVersionlessAliasTargets.cmake:
+
+/home/qememe/проекты/Timur_steam/resources.qrc:
+
+/usr/include/qt6/QtCore/qtversionchecks.h:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
 
@@ -2302,22 +2299,6 @@ CMakeFiles/4.2.2/CMakeSystem.cmake:
 
 /usr/include/bits/posix1_lim.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/linux/stddef.h:
-
-/home/qememe/проекты/Timur_steam/src/AuthManager.cpp:
-
-/usr/include/c++/15.2.1/numeric:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
-
 Timur_steam_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake:
@@ -2326,9 +2307,17 @@ Timur_steam_autogen/moc_predefs.h:
 
 /usr/include/bits/setjmp.h:
 
-/usr/include/qt6/QtCore/qsharedpointer_impl.h:
+/usr/include/c++/15.2.1/bits/hashtable_policy.h:
+
+/usr/include/qt6/QtCore/qlist.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/15.2.1/bit:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginConfig.cmake:
+
+/usr/include/qt6/QtCore/qsharedpointer_impl.h:
 
 /usr/include/qt6/QtCore/QUrl:
 
@@ -2385,6 +2374,22 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 /usr/include/bits/errno.h:
 
 /usr/include/c++/15.2.1/array:
+
+/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/linux/stddef.h:
+
+/home/qememe/проекты/Timur_steam/src/AuthManager.cpp:
+
+/usr/include/c++/15.2.1/numeric:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
 /home/qememe/проекты/Timur_steam/src/MainWindow.cpp:
 
@@ -2444,15 +2449,21 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake:
 
+/usr/include/qt6/QtGui/qpixmap.h:
+
+/usr/include/qt6/QtCore/qstringconverter_base.h:
+
+/home/qememe/проекты/Timur_steam/src/MainWindow.h:
+
 /usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
-
-/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
 
 /usr/include/alloca.h:
+
+/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
+
+/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginTargets-relwithdebinfo.cmake:
 
@@ -2794,6 +2805,12 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagehelperspluginTargets.cmake:
 
+/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15.2.1/bits/uses_allocator.h:
+
 /usr/include/c++/15.2.1/bits/stl_relops.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake:
@@ -2845,10 +2862,6 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 /usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake:
 
 /usr/include/stdint.h:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtGui/qregion.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellConfig.cmake:
 
@@ -3002,15 +3015,11 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake:
 
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
+/usr/include/qt6/QtGui/qregion.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.2.1/bits/uses_allocator.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebenginequickdelegatespluginTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtCore/qstringview.h:
 
@@ -3900,10 +3909,6 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginConfig.cmake:
 
-/usr/include/qt6/QtCore/qtversionchecks.h:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginAdditionalTargetInfo.cmake:
@@ -3927,5 +3932,3 @@ CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 /usr/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginConfig.cmake:
