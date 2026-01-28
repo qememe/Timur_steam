@@ -7,7 +7,7 @@ echo Starting build process for Timur Steam...
 where cmake >nul 2>nul
 if %errorlevel% neq 0 (
     echo CMake not found! Attempting to install via winget...
-    winget install Kitware.CMake
+    winget install -e --id Kitware.CMake --source winget
     if %errorlevel% neq 0 (
         echo Failed to install CMake. Please install it manually from https://cmake.org/download/
         pause
@@ -20,7 +20,7 @@ if %errorlevel% neq 0 (
 where git >nul 2>nul
 if %errorlevel% neq 0 (
     echo Git not found! Attempting to install via winget...
-    winget install Git.Git
+    winget install -e --id Git.Git --source winget
     if %errorlevel% neq 0 (
         echo Failed to install Git. Please install it manually.
         pause
